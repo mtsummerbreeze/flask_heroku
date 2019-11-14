@@ -1,9 +1,16 @@
 {% extends "base.html" %}
 
 
+
 {% block js %}
 {% endblock %}
 
 
 {% block main %}
+
+    <h1> Welcome! Please enter the provided password:</h1>
+    <form action="/action_page.php">
+      Password: <input type="password" name="pwd" maxlength="8"><br>
+      <input type="submit">
+    </form>
 {% endblock %}
