@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>{% block title %}yoursite.com{% endblock %}</title>
+  <title>{% block title %}Finance apps{% endblock %}</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
@@ -33,6 +33,11 @@
 
   <header>
     {% include "header.html" %}
+      <h1> Welcome! Please enter the provided password:</h1>
+    <form>
+      Password: <input type="password" name="pwd" maxlength="8"><br>
+      <input type="submit">
+    </form>
   </header>
 
   <div id="main" role="main">
